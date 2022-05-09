@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  font-family: "Montserrat", sans-serif;
+}
+
+.form-footer {
+  width: 100%;
+  height: 100%;
+}
+.form-validation {
+  padding: 0 50px;
+  border-radius: 100px;
+}
+
+.form-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  row-gap: 20px;
+  margin-bottom: 50px;
+  color: rgba(25, 15, 84, 0.8);
+}
+
+.form-name {
+  /* text-align: center; */
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.form-desc {
+  /* text-align: center; */
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.form-body {
+  border: 4px solid rgb(190, 116, 30);
+  padding: 20px;
+  color: #132369;
+  padding-bottom: 200px;
+}
+
+.form-control {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: flex;
+}
+.form-heading {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 0 12px;
+  line-height: 1.6;
+  background-image: linear-gradient(
+    90deg,
+    rgba(220, 177, 76, 1),
+    rgba(220, 177, 76, 0.3),
+    rgba(220, 177, 76, 1),
+    rgba(220, 177, 76, 0.3)
+  );
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+p.form-heading {
+  text-align: center;
+}
+.form-heading > span {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.form-control > label > span {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.form-control input {
+  /* flex-basis: 300px; */
+  flex-grow: 1;
+  height: 20px;
+  margin-left: 10px;
+}
+/* .btn {
+  background-color: rgb(72, 146, 241);  
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+} 
+*/
+
+.signed-confirmation {
+  text-align: right;
+  margin-right: 40px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.signed-confirmation > span {
+  font-weight: 400;
+}
+
+.form-control-1 {
+  display: flex;
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.form-control-1 input {
+  flex-grow: 1;
+}
+.form-footer {
+  color: #fff;
+  background-color: blue;
+  padding: 30px 80px;
+  line-height: 1.2;
+}
+
+.footer-heading {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer-list {
+  list-style: none;
+}
+.footer-item p {
+  font-size: 9px;
+}
